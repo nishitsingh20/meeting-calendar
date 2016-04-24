@@ -1,0 +1,33 @@
+#cal {
+    width: 600px;
+    height: 1440px;
+    background-color: #2196F3;
+    position: absolute;
+    left: 60px;
+}
+
+#scale {
+    width: 50px;
+    height: 1440px;
+    background-color: #BBDEFB;
+    position: absolute;
+}
+
+#cal > div {
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+    font-family: "Courier New", Courier, monospace;
+    color: #0D47A1;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: flex;
+    /* Vertical align: */
+    align-items: center;
+    /* Horizontal align: */
+    justify-content: center;
+    text-align: center;
+}
